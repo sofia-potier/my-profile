@@ -1,0 +1,120 @@
+body { 
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 20px; 
+}
+
+
+}
+h1 { 	
+	color: #2F4135;
+	font-size: 32xp;
+	font-weight: 900;
+}
+h2 { 	
+	color: #D96E85;
+	font-size: 20xp;
+	font-weight: lighter;
+	font-weight: 500;
+}
+h3 { 	
+	color: #3A4F41;
+	font-size: 15xp;
+	font-weight: lighter;
+	font-weight: 200;
+}
+a { 
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover { 
+	color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: column; 
+	align-items: center; 
+}
+
+.card-white {
+	background-color: #FFDED9;
+	border: 4px;
+	border-radius: 15px;
+	box-shadow: 0 2px 5px rgba(10, 0, 0, 0.3);
+	padding: 20px;
+	margin: 10px 0;
+	width: 700px;
+	text-align: center;
+}
+
+.card-blue {
+	margin-top: 10px;
+	background-color: #ECECEC;
+	border-radius: 5px;
+	box-shadow: rgba(10, 0, 0, 0.3);
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.card-blue a:hover {
+	text-decoration: underline; 
+}
+
+
+h1, h2, h3 {
+	margin: 10px 0; 
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ul li {
+    margin: 5px 0; 
+}
+
+.profile-picture {           
+	border-radius: 50%;      
+	object-fit: cover;   
+	width: 300px;
+	height: 300px;    
+}
+
+
+.social-list { 
+	list-style: none;
+	padding: 0; 
+}
+
+.social-list li { 
+	display: inline;
+	margin-right: 20px; 
+}
+
+.icon{ 
+	width: 500px;
+	height: 500px; 
+}
+
+.icons {
+	font-size: 600px;
+	color : black;
+	margin-right: 25px;
+	transition : colr 0.3s;
+}
+
+.icons:hover {
+    color: #0056B3; 
+}
+
+
+
